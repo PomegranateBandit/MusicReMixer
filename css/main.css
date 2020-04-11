@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.board {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.party {
+position: absolute;
+color: green;
+height: 5%;
+width: 31%;
+margin-top: 24%;
+
+display: grid;
+grid-template-columns: 24% 24% 24% 24%;
+grid-gap: 1%
+}
+
+.roster {
+  display: grid;
+  grid-template-columns: 160px 160px 160px 160px;
+  grid-template-rows: 160px;
+  grid-gap: 20px;
+}
+.rosters {
+  background: grey;
+  display: flex;
+  justify-content: space-between;
+
+}
+.rosters h2 {
+  margin-left: 50px;
+}
+.rosterR {
+}
+.rosterL {
+}
+
+
+
+
+.fill {
+ background-color: #cccccc;
+  position: relative;
+  height: 120px;
+  width: 120px;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.draggable {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin: 10px;
+  border: 3px #5e5e5e solid;
+  background-color: white;
+}
+.member {
+  display: none;
+width: auto;
+height: auto;
+margin: auto;
+  border: none;
+  background-color: none;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
